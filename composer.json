@@ -1,0 +1,19 @@
+{
+    "name": "ghost/demo",
+    "description": "新建一个composer包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhenglei",
+            "email": "zhenglei@qudian.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/Demo"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
